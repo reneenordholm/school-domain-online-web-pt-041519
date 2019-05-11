@@ -1,5 +1,5 @@
 class School
-  attr_accessor :school
+  attr_reader :school
   
   def school=(school)
     @school = school

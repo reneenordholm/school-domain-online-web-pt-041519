@@ -18,6 +18,7 @@ class School
   end
   
   def sort
-    roster.sort
+    sorted_roster = {}
+    sorted_roster << roster.sort
   end
 end

@@ -8,7 +8,7 @@ class School
     @roster = roster
   end
   
-  def add_student(grade, name)
+  def add_student(name, grade)
     binding.pry
     roster[name] = []
     if roster[name].include?(grade)

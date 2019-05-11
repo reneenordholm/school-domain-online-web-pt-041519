@@ -8,7 +8,8 @@ class School
   
   def add_student(grade, name)
     roster[name] = []
-      while count < name.length
-        roster[name] << grade
+    if roster[name].include?(grade)
+      roster[name] << grade
+    end
   end
 end

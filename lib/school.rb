@@ -10,11 +10,8 @@ class School
   
   def add_student(name, grade)
     roster[grade] = []
-    if roster.include?(grade)
+    if !(roster.include?(grade))
       #add name to roster grade
-      roster[name]
-    else 
-      #create new key value pair
       roster[grade] << name
     end
   end

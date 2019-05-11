@@ -19,6 +19,6 @@ class School
   
   def sort
     sorted_roster = {}
-    sorted_roster << roster.sort
+    sorted_roster[roster.sort]
   end
 end

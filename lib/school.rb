@@ -12,10 +12,10 @@ class School
     roster[grade] = []
     if roster.include?(grade)
       #add name to roster grade
-      roster[grade] << name
+      roster[name]
     else 
       #create new key value pair
-      
+      roster[grade] << name
     end
   end
 end
